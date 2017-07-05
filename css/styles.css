@@ -1,3 +1,9 @@
+.well {
+  background-color: #c6d7f2;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  text-align: center;
+}
+
 .js-showing {
   display: none;
 }

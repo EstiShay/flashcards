@@ -1,144 +1,185 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Flashcards</title>
   </head>
   <body>
-    <h1>Flashcards</h1>
-    <div class="js-hidden">
-      <p><span class="js">JavaScript (JS)</span></p>
-    </div>
-    <div class="js-showing">
-      <p><span class="js">An object-oriented computer programming language commonly used to create interactive effects within web browsers.</span></p>
-    </div>
+    <div class="container">
+      <h1>Flashcards</h1>
+      <div class="well">
+        <div class="js-hidden">
+          <p><span class="js">JavaScript (JS)</span></p>
+        </div>
+        <div class="js-showing">
+          <p><span class="js">An object-oriented computer programming language commonly used to create interactive effects within web browsers.</span></p>
+        </div>
+      </div>
 
-    <div class="Operators-hidden">
-      <p><span class="Operators">Operators</span></p>
-    </div>
-    <div class="Operators-showing">
-      <p><span class="Operators">JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. The + operator, and the += operator can also be used to concatenate (add) strings.</span></p>
-    </div>
+      <div class="well">
+        <div class="Operators-hidden">
+          <p><span class="Operators">Operators</span></p>
+        </div>
+        <div class="Operators-showing">
+          <p><span class="Operators">JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. The + operator, and the += operator can also be used to concatenate (add) strings.</span></p>
+        </div>
+      </div>
 
-    <div class="Variables-hidden">
-      <p><span class="Variables">Variables</span></p>
-    </div>
-    <div class="Variables-showing">
-      <p><span class="Variables">Variables can be thought of as containers used to store information. They allow for a way to label data with a descriptive name.</span></p>
-    </div>
+      <div class="well">
+        <div class="Variables-hidden">
+          <p><span class="Variables">Variables</span></p>
+        </div>
+        <div class="Variables-showing">
+          <p><span class="Variables">Variables can be thought of as containers used to store information. They allow for a way to label data with a descriptive name.</span></p>
+        </div>
+      </div>
 
-    <div class="Variablenc-hidden">
-      <p><span class="Variablenc">Variables Naming Conventions</span></p>
-    </div>
-    <div class="Variablenc-showing">
-      <p><span class="Variablenc">Use lowerCamelCase when naming JavaScript variables. Start with a lowercase letter, and if the variable name is more than one word, remove all spaces and capitalize the first letter of each subsequent word.</span></p>
-    </div>
+      <div class="well">
+        <div class="Variablenc-hidden">
+          <p><span class="Variablenc">Variables Naming Conventions</span></p>
+        </div>
+        <div class="Variablenc-showing">
+          <p><span class="Variablenc">Use lowerCamelCase when naming JavaScript variables. Start with a lowercase letter, and if the variable name is more than one word, remove all spaces and capitalize the first letter of each subsequent word.</span></p>
+        </div>
+      </div>
 
-    <div class="Functions-hidden">
-      <p><span class="Functions">Functions</span></p>
-    </div>
-    <div class="Functions-showing">
-      <p><span class="Functions">A function is a block of code that performs an action and returns a result; optionally takes arguments.</span></p>
-    </div>
+      <div class="well">
+        <div class="Functions-hidden">
+          <p><span class="Functions">Functions</span></p>
+        </div>
+        <div class="Functions-showing">
+          <p><span class="Functions">A function is a block of code that performs an action and returns a result; optionally takes arguments.</span></p>
+        </div>
+      </div>
 
-    <div class="Methods-hidden">
-      <p><span class="Methods">Methods</span></p>
-    </div>
-    <div class="Methods-showing">
-      <p><span class="Methods">A method is an action run on a piece of data; you can think of it as a message you send to a piece of data, and the result is the response.</span></p>
-    </div>
+      <div class="well">
+        <div class="Methods-hidden">
+          <p><span class="Methods">Methods</span></p>
+        </div>
+        <div class="Methods-showing">
+          <p><span class="Methods">A method is an action run on a piece of data; you can think of it as a message you send to a piece of data, and the result is the response.</span></p>
+        </div>
+      </div>
 
-    <div class="Arguments-hidden">
-      <p><span class="Arguments">Arguments</span></p>
-    </div>
-    <div class="Arguments-showing">
-      <p><span class="Arguments">What you pass into a function or method. Some methods take one or more arguments that provide the method with additional information to help it perform its action.</span></p>
-    </div>
+      <div class="well">
+        <div class="Arguments-hidden">
+          <p><span class="Arguments">Arguments</span></p>
+        </div>
+        <div class="Arguments-showing">
+          <p><span class="Arguments">What you pass into a function or method. Some methods take one or more arguments that provide the method with additional information to help it perform its action.</span></p>
+        </div>
+      </div>
 
-    <div class="Parameters-hidden">
-      <p><span class="Parameters">Parameters</span></p>
-    </div>
-    <div class="Parameters-showing">
-      <p><span class="Parameters">A variable that's assigned to the argument.</span></p>
-    </div>
+      <div class="well">
+        <div class="Parameters-hidden">
+          <p><span class="Parameters">Parameters</span></p>
+        </div>
+        <div class="Parameters-showing">
+          <p><span class="Parameters">A variable that's assigned to the argument.</span></p>
+        </div>
+      </div>
 
-    <div class="Return-hidden">
-      <p><span class="Return">Return</span></p>
-    </div>
-    <div class="Return-showing">
-      <p><span class="Return">Once called, many functions will provide a result of some kind. This is known as returning, and the result is often referred to as a return value.</span></p>
-    </div>
+      <div class="well">
+        <div class="Return-hidden">
+          <p><span class="Return">Return</span></p>
+        </div>
+        <div class="Return-showing">
+          <p><span class="Return">Once called, many functions will provide a result of some kind. This is known as returning, and the result is often referred to as a return value.</span></p>
+        </div>
+      </div>
 
-    <div class="Chainingmethods-hidden">
-      <p><span class="Chainingmethods">Chaining methods</span></p>
-    </div>
-    <div class="Chainingmethods-showing">
-      <p><span class="Chainingmethods">Method chaining is a technique that can be used to simplify code in scenarios that involve calling multiple functions on the same object consecutively. For example, "prompt("Type something in lowercase:").toUpperCase();" will create an upper case version of the return of this prompt. </span></p>
-    </div>
+      <div class="well">
+        <div class="Chainingmethods-hidden">
+          <p><span class="Chainingmethods">Chaining methods</span></p>
+        </div>
+        <div class="Chainingmethods-showing">
+          <p><span class="Chainingmethods">Method chaining is a technique that can be used to simplify code in scenarios that involve calling multiple functions on the same object consecutively. For example, "prompt("Type something in lowercase:").toUpperCase();" will create an upper case version of the return of this prompt. </span></p>
+        </div>
+      </div>
 
-    <div class="Strings-hidden">
-      <p><span class="Strings">Strings</span></p>
-    </div>
-    <div class="Strings-showing">
-      <p><span class="Strings">Data type that represents the exact text of whatever is enclosed in the quotes.</span></p>
-    </div>
+      <div class="well">
+        <div class="Strings-hidden">
+          <p><span class="Strings">Strings</span></p>
+        </div>
+        <div class="Strings-showing">
+          <p><span class="Strings">Data type that represents the exact text of whatever is enclosed in the quotes.</span></p>
+        </div>
+      </div>
 
-    <div class="Booleans-hidden">
-      <p><span class="Booleans">Booleans</span></p>
-    </div>
-    <div class="Booleans-showing">
-      <p><span class="Booleans">A data type: true or false.</span></p>
-    </div>
+      <div class="well">
+        <div class="Booleans-hidden">
+          <p><span class="Booleans">Booleans</span></p>
+        </div>
+        <div class="Booleans-showing">
+          <p><span class="Booleans">A data type: true or false.</span></p>
+        </div>
+      </div>
 
-    <div class="Undefined-hidden">
-      <p><span class="Undefined">Undefined</span></p>
-    </div>
-    <div class="Undefined-showing">
-      <p><span class="Undefined">An object (such as a variable) without a defined value.</span></p>
-    </div>
+      <div class="well">
+        <div class="Undefined-hidden">
+          <p><span class="Undefined">Undefined</span></p>
+        </div>
+        <div class="Undefined-showing">
+          <p><span class="Undefined">An object (such as a variable) without a defined value.</span></p>
+        </div>
+      </div>
 
-    <div class="NaN-hidden">
-      <p><span class="NaN">NaN</span></p>
-    </div>
-    <div class="NaN-showing">
-      <p><span class="NaN">NaN stands for 'not a number.'' NaN is a type of number</span></p>
-    </div>
+      <div class="well">
+        <div class="NaN-hidden">
+          <p><span class="NaN">NaN</span></p>
+        </div>
+        <div class="NaN-showing">
+          <p><span class="NaN">NaN stands for 'not a number.'' NaN is a type of number</span></p>
+        </div>
+      </div>
 
-    <div class="Escape-hidden">
-      <p><span class="Escape">Escape</span></p>
-    </div>
-    <div class="Escape-showing">
-      <p><span class="Escape">The \\ around either side of the text above is called an escape. It tells JavaScript that the " that comes right after it is not the end of the string, but just a character inside the string.</span></p>
-    </div>
+      <div class="well">
+        <div class="Escape-hidden">
+          <p><span class="Escape">Escape</span></p>
+        </div>
+        <div class="Escape-showing">
+          <p><span class="Escape">The \\ around either side of the text above is called an escape. It tells JavaScript that the " that comes right after it is not the end of the string, but just a character inside the string.</span></p>
+        </div>
+      </div>
 
-    <div class="Alert-hidden">
-      <p><span class="Alert">Alert</span></p>
-    </div>
-    <div class="Alert-showing">
-      <p><span class="Alert">The alert() method displays an alert box with a specified message and an OK button. An alert box is often used if you want to make sure information comes through to the user.</span></p>
-    </div>
+      <div class="well">
+        <div class="Alert-hidden">
+          <p><span class="Alert">Alert</span></p>
+        </div>
+        <div class="Alert-showing">
+          <p><span class="Alert">The alert() method displays an alert box with a specified message and an OK button. An alert box is often used if you want to make sure information comes through to the user.</span></p>
+        </div>
+      </div>
 
-    <div class="Comments-hidden">
-      <p><span class="Comments">Comments</span></p>
-    </div>
-    <div class="Comments-showing">
-      <p><span class="Comments">Anything following // on a line in JavaScript is ignored by the computer. Comments are a convenient way to leave notes in your code for yourself or other programmers.</span></p>
-    </div>
+      <div class="well">
+        <div class="Comments-hidden">
+          <p><span class="Comments">Comments</span></p>
+        </div>
+        <div class="Comments-showing">
+          <p><span class="Comments">Anything following // on a line in JavaScript is ignored by the computer. Comments are a convenient way to leave notes in your code for yourself or other programmers.</span></p>
+        </div>
+      </div>
 
-    <div class="jQuery-hidden">
-      <p><span class="jQuery">jQuery</span></p>
-    </div>
-    <div class="jQuery-showing">
-      <p><span class="jQuery">jQuery is a concise and fast JavaScript library that can be used to simplify event handling, HTML document traversing, and much more!</span></p>
-    </div>
+      <div class="well">
+        <div class="jQuery-hidden">
+          <p><span class="jQuery">jQuery</span></p>
+        </div>
+        <div class="jQuery-showing">
+          <p><span class="jQuery">jQuery is a concise and fast JavaScript library that can be used to simplify event handling, HTML document traversing, and much more!</span></p>
+        </div>
+      </div>
 
-    <div class="Attributes-hidden">
-      <p><span class="Attributes">Attributes</span></p>
-    </div>
-    <div class="Attributes-showing">
-      <p><span class="Attributes">Additional information provided to a tag. For instance, the href attribute in an <a> tag provides the URL a link should travel to.</span></p>
+      <div class="well">
+        <div class="Attributes-hidden">
+          <p><span class="Attributes">Attributes</span></p>
+        </div>
+        <div class="Attributes-showing">
+          <p><span class="Attributes">Additional information provided to a tag. For instance, the href attribute in an <a> tag provides the URL a link should travel to.</span></p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
